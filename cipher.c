@@ -25,7 +25,7 @@ void processInput(FILE *inf, FILE *outf, char substitute[]);
 
 int main(int argc, char *argv[])
 {
-  char encrypt[26], decrypt[26];
+  char encrypt[27], decrypt[27];
   int option;
   char *key;
   FILE *inFile, *outFile;
